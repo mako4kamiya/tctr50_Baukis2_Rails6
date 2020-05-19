@@ -3,6 +3,7 @@ Rails.application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
+  # config.cache_classes = false #開発しやすくするために、ソースコード編集後、アプリケーションを再起動しなくても反映されるようにする。後でtrueに戻す。
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
